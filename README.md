@@ -1,4 +1,7 @@
-[![](https://jitpack.io/v/hassanwasfy/iTell.svg)](https://jitpack.io/#hassanwasfy/iTell)
+[![](https://jitpack.io/v/hassanwasfy/iTell.svg)](https://jitpack.io/#hassanwasfy/iTell) [![License: Personal/Non-Commercial](https://img.shields.io/badge/license-Free%20for%20Personal-orange.svg)](https://github.com/hassanwasfy/iTell#license)
+[![License: Commercial](https://img.shields.io/badge/license-Contact%20for%20Commercial-red.svg)](https://github.com/hassanwasfy/iTell#license)
+
+
 
 # **ScreenTracker Documentation**
 
@@ -8,6 +11,7 @@
 - [How to Use](#how-to-use)
 - [Best Practices](#best-practices)
 - [FAQ](#faq)
+- [License](#license)
 
 ---
 
@@ -48,7 +52,10 @@ class MyApplication : Application() {
       super.onCreate()
 
       // Initialize the ScreenTracker
-      ScreenTrackerInitializer().initialize(this)
+      //remember to add this line ONLY in DEBUG mode
+        if (BuildConfig.DEBUG){
+            ScreenTrackerInitializer().initialize(this)
+        }
    }
 }
 ```
@@ -92,6 +99,22 @@ No, the use of `WeakReference` ensures that references to activities and fragmen
 
 ### **Q: Can I disable Firebase integration?**
 Yes, Firebase Analytics is optional and can be skipped entirely if not needed.
+
+
+## License
+
+This project is licensed under a dual-license model:
+
+1. **Personal/Non-Commercial Use**:
+   - Licensed under a free, non-commercial license.
+   - For personal and educational use only.
+   - Commercial use is prohibited.
+
+2. **Commercial Use**:
+   - A commercial license must be purchased.
+   - Contact hassanwasfy7@gmail.com for details.
+
+By using this software, you agree to the terms of the appropriate license.
 
 ---
 
