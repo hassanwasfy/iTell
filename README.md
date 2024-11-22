@@ -11,6 +11,7 @@
 - [How to Use](#how-to-use)
 - [Best Practices](#best-practices)
 - [FAQ](#faq)
+- [License](#license)
 
 ---
 
@@ -99,10 +100,6 @@ No, the use of `WeakReference` ensures that references to activities and fragmen
 ### **Q: Can I disable Firebase integration?**
 Yes, Firebase Analytics is optional and can be skipped entirely if not needed.
 
----
-
-## **Conclusion**
-`ScreenTracker` is an essential utility for tracking user navigation in Android apps, offering simplicity, efficiency, and flexibility. Whether for debugging or analytics, it seamlessly integrates into your app with minimal setup.
 
 ## License
 
@@ -118,3 +115,9 @@ This project is licensed under a dual-license model:
    - Contact hassanwasfy7@gmail.com for details.
 
 By using this software, you agree to the terms of the appropriate license.
+
+---
+
+## **Conclusion**
+`ScreenTracker` is an essential utility for tracking user navigation in Android apps, offering simplicity, efficiency, and flexibility. Whether for debugging or analytics, it seamlessly integrates into your app with minimal setup.
+
