@@ -2,6 +2,7 @@
 jdk:
   - openjdk17
 before_install:
+  - chmod +x prepareJitpackEnvironment.sh
   - ./prepareJitpackEnvironment.sh
 install:
   - FILE="-Dfile=itell-release.aar"
