@@ -1,5 +1,4 @@
 [![](https://jitpack.io/v/hassanwasfy/iTell.svg)](https://jitpack.io/#hassanwasfy/iTell) [![License: Personal/Non-Commercial](https://img.shields.io/badge/license-Free%20for%20Personal-orange.svg)](https://github.com/hassanwasfy/iTell#license)
-[![License: Commercial](https://img.shields.io/badge/license-Contact%20for%20Commercial-red.svg)](https://github.com/hassanwasfy/iTell#license)
 
 
 
@@ -107,11 +106,7 @@ This project is licensed under a dual-license model:
 1. **Personal/Non-Commercial Use**:
    - Licensed under a free, non-commercial license.
    - For personal and educational use only.
-   - Commercial use is prohibited.
-
-2. **Commercial Use**:
-   - A commercial license must be purchased.
-   - Contact hassanwasfy7@gmail.com for details.
+   - Commercial use needs approval.
 
 By using this software, you agree to the terms of the appropriate license.
 
