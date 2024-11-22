@@ -1,4 +1,7 @@
-[![](https://jitpack.io/v/hassanwasfy/iTell.svg)](https://jitpack.io/#hassanwasfy/iTell)
+[![](https://jitpack.io/v/hassanwasfy/iTell.svg)](https://jitpack.io/#hassanwasfy/iTell) [![License: Personal/Non-Commercial](https://img.shields.io/badge/license-Free%20for%20Personal-orange.svg)](https://github.com/hassanwasfy/iTell#license)
+[![License: Commercial](https://img.shields.io/badge/license-Contact%20for%20Commercial-red.svg)](https://github.com/hassanwasfy/iTell#license)
+
+
 
 # **ScreenTracker Documentation**
 
@@ -101,3 +104,17 @@ Yes, Firebase Analytics is optional and can be skipped entirely if not needed.
 ## **Conclusion**
 `ScreenTracker` is an essential utility for tracking user navigation in Android apps, offering simplicity, efficiency, and flexibility. Whether for debugging or analytics, it seamlessly integrates into your app with minimal setup.
 
+## License
+
+This project is licensed under a dual-license model:
+
+1. **Personal/Non-Commercial Use**:
+   - Licensed under a free, non-commercial license.
+   - For personal and educational use only.
+   - Commercial use is prohibited.
+
+2. **Commercial Use**:
+   - A commercial license must be purchased.
+   - Contact hassanwasfy7@gmail.com for details.
+
+By using this software, you agree to the terms of the appropriate license.
