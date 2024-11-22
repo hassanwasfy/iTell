@@ -5,7 +5,4 @@ before_install:
   - chmod +x prepareJitpackEnvironment.sh
   - ./prepareJitpackEnvironment.sh
 install:
-  - FILE="-Dfile=itell-release.aar"
-  - mvn install:install-file $FILE -DgroupId=com.github.hassanwasfy -DartifactId=iTell -Dversion=2.0 -Dpackaging=aar -DgeneratePom=true
-  #hassanwasfy7@gmail.com
-
+  - ./gradlew publish

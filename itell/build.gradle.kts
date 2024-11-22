@@ -50,32 +50,13 @@ publishing {
     publications {
         create<MavenPublication>("release") {
             groupId = "com.github.hassanwasfy"
-            artifactId = "iTell"
+            artifactId = "itell"
             version = "2.0"
-
-            pom {
-                name.set("iTell")
-                description.set("A lightweight library for tracking the current screen in Android apps.")
-                url.set("https://github.com/hassanwasfy/iTell")
-                licenses {
-                    license {
-                        name.set("MIT License")
-                        url.set("https://opensource.org/licenses/MIT")
-                    }
-                }
-                developers {
-                    developer {
-                        id.set("hassanwasfy")
-                        name.set("Hassan Wasfy")
-                        email.set("hassanwasfy7@gmail.com")
-                    }
-                }
-                scm {
-                    connection.set("scm:git:git://github.com/hassanwasfy/iTell.git")
-                    developerConnection.set("scm:git:ssh://github.com:hassanwasfy/iTell.git")
-                    url.set("https://github.com/hassanwasfy/iTell")
-                }
-            }
+        }
+    }
+    repositories {
+        maven {
+            url = uri("https://jitpack.io")
         }
     }
 }
