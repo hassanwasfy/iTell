@@ -48,7 +48,10 @@ class MyApplication : Application() {
       super.onCreate()
 
       // Initialize the ScreenTracker
-      ScreenTrackerInitializer().initialize(this)
+      //remember to add this line ONLY in DEBUG mode
+        if (BuildConfig.DEBUG){
+            ScreenTrackerInitializer().initialize(this)
+        }
    }
 }
 ```
