@@ -38,7 +38,6 @@ Ensure the following dependencies are added in your `build.gradle.kts` file:
 ```kotlin
 dependencies {
     implementation ("com.github.hassanwasfy:iTell:${leatest_version}")
-    implementation("com.google.firebase:firebase-analytics-ktx") // Optional Firebase Analytics
 }
 ```
 
