@@ -1,2 +1,10 @@
+# configuration file for building snapshots and releases with jitpack.io
 jdk:
   - openjdk17
+before_install:
+  - ./scripts/prepareJitpackEnvironment.sh
+install:
+  - FILE="-Dfile=itell-release.aar"
+  - mvn install:install-file $FILE -DgroupId=com.github.hassanwasfy -DartifactId=iTell -Dversion=2.0 -Dpackaging=aar -DgeneratePom=true
+  #hassanwasfy7@gmail.com
+

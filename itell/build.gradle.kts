@@ -39,6 +39,11 @@ android {
             languageVersion.set(JavaLanguageVersion.of(17))
         }
     }
+
+    java {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
 }
 
 publishing {
@@ -46,7 +51,7 @@ publishing {
         create<MavenPublication>("release") {
             groupId = "com.github.hassanwasfy"
             artifactId = "iTell"
-            version = "1.0.2"
+            version = "2.0"
 
             pom {
                 name.set("iTell")
@@ -79,8 +84,9 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
-
+    implementation(libs.play.services.measurement.api)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation ("com.google.firebase:firebase-analytics-ktx:22.1.2")
 }
