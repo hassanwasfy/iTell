@@ -51,7 +51,7 @@ publishing {
         create<MavenPublication>("release") {
             groupId = "com.github.hassanwasfy"
             artifactId = "itell"
-            version = "2.0"
+            version = "2.0.5"
         }
     }
     repositories {
