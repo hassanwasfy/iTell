@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the file path for the AAR file
-AAR_FILE_PATH="./build/itell-release.aar"
+AAR_FILE_PATH="./itell-release.aar"
 
 # Check if the file exists
 if [ -f "$AAR_FILE_PATH" ]; then
