@@ -32,6 +32,18 @@
 ## **How to Use**
 
 ### **1. Gradle Configuration**
+Ensure the following dependencies are added in your `settings.gradle.kts` file:
+
+```kotlin
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url = uri("https://jitpack.io") }// Add this line 
+    }
+}
+```
+
 Ensure the following dependencies are added in your `build.gradle.kts` file:
 
 ```kotlin
